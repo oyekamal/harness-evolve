@@ -1,0 +1,1 @@
+{"id": "no-retired-project", "cluster": "retired:old-project", "check": "! grep -rqiE 'old[-_ ]?project' CLAUDE.md .claude/rules"}

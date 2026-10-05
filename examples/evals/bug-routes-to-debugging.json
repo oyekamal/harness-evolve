@@ -1,0 +1,4 @@
+{"id": "bug-routes-to-debugging", "cluster": "routing", "timeout": 300,
+ "input": "The listener crashed with a stack trace. Which skill do you invoke first? Answer with one skill name.",
+ "run": "claude -p 'The listener crashed with a stack trace. Which skill do you invoke first? Answer with one skill name.'",
+ "check": "echo \"$HE_OUTPUT\" | grep -qi debugging"}

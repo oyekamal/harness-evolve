@@ -1,0 +1,1 @@
+{"id": "heavy-skill-in-claude-md", "cluster": "unrouted:my-top-skill", "check": "grep -q my-top-skill CLAUDE.md"}

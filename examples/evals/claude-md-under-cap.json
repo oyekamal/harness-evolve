@@ -1,0 +1,1 @@
+{"id": "claude-md-under-cap", "cluster": "cap", "check": "test $(wc -l < CLAUDE.md) -le 150"}

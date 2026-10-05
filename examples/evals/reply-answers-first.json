@@ -1,0 +1,3 @@
+{"id": "reply-answers-first", "cluster": "tone",
+ "run": "claude -p 'Draft the chat reply for a teammate asking whether the deploy is safe to run tonight.'",
+ "judge": {"prompt": "Which reply answers the question in its first sentence and keeps the rest under five lines?"}}
