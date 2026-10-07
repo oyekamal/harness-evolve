@@ -86,7 +86,7 @@ examples/evals/                   eval task examples
 
 ## Requirements
 
-Python 3.8+ (standard library only), git 2.20+, a POSIX shell. Works on any repo that has a `CLAUDE.md` or `.claude/` directory. Nothing is installed with pip.
+Python 3.8+ (standard library only), git 2.20+, a POSIX shell (on Windows, run from Git Bash or WSL: checks use `grep`, `test` and `wc`). Works on any repo that has a `CLAUDE.md` or `.claude/` directory. Nothing is installed with pip.
 
 ## Known limits
 
