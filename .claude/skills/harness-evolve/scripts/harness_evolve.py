@@ -1348,7 +1348,7 @@ def cmd_selfcheck(a):
     me = Path(__file__).resolve()
     home = tmp / "home"
     home.mkdir()
-    env = dict(os.environ, HOME=str(home))
+    env = dict(os.environ, HOME=str(home), USERPROFILE=str(home))  # Path.home() reads USERPROFILE on Windows
     try:
         r = tmp / "repo"; r.mkdir()
         sh(["git", "init", "-q"], cwd=r, check=True)
